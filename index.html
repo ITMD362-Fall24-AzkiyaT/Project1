@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-Up Page</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>Join Our Project</h1>
+  </header>
+  <main>
+    <form id="signup-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="project">Project Interest:</label>
+      <select id="project" name="project">
+        <option value="email-list">Email List</option>
+        <option value="beta-test">Software Beta Test</option>
+        <option value="open-source">Open Source Community</option>
+      </select>
+      
+      <button type="submit">Sign Up</button>
+    </form>
+  </main>
+</body>
+</html>
