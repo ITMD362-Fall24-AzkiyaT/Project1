@@ -3,32 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sign-Up Page</title>
+  <title>Join Our Project</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <script src="script.js" async></script>
 </head>
 <body>
   <header>
-    <h1>Join Our Project</h1>
+    <h1>Join Our Project!</h1>
   </header>
   <main>
-    <form id="signup-form">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-      
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      
-      <label for="project">Project Interest:</label>
-      <select id="project" name="project">
-        <option value="email-list">Email List</option>
-        <option value="beta-test">Software Beta Test</option>
-        <option value="open-source">Open Source Community</option>
-      </select>
-      
-      <button type="submit">Sign Up</button>
-    </form>
+    <div class="container">
+      <p>Interested in collaborating on exciting new ideas?</p>
+      <p>Sign up now to get involved!</p>
+      <form id="signup-form">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" placeholder="Enter your First Name" required>
+        
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" placeholder="Enter your Last Name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+        
+        <button type="submit">Sign Up Now</button>
+      </form>
+    </div>
   </main>
 </body>
 </html>
+
