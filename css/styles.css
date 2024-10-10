@@ -20,6 +20,10 @@ header {
   max-width: 600px; /* Maximum width */
 }
 
+.container p {
+  margin-bottom: 20px; /* Added margin to paragraphs */
+}
+
 label {
   display: block;
   margin-bottom: 8px;
