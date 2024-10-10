@@ -1,46 +1,51 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  padding: 20px;
+  background-color: #2e8b57; /* Sea green background */
+  color: #ff00ff; /* Magenta text */
+  text-align: center;
+  padding: 50px;
 }
 
 header {
-  text-align: center;
   margin-bottom: 20px;
 }
 
-form {
-  max-width: 400px;
-  margin: 0 auto;
-  background: #fff;
+.container {
+  background-color: #fff;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  display: inline-block;
 }
 
 label {
   display: block;
   margin-bottom: 8px;
+  color: #333;
 }
 
-input, select, button {
-  width: 100%;
+input[type="text"], input[type="email"] {
+  width: calc(100% - 20px);
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 5px;
+  border: none;
+  border-bottom: solid #2e8b57;
+  background-color: #f8f8f8;
 }
 
 button {
-  background-color: #28a745;
-  color: #fff;
+  background-color: #ff00ff; /* Magenta button */
+  color: white;
+  padding: 15px;
   border: none;
   cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
 }
 
 button:hover {
-  background-color: #218838;
+  background-color: #ad0075;
 }
 
 /* Media Queries */
@@ -51,7 +56,7 @@ button:hover {
 }
 
 @media (min-width: 900px) {
-  form {
+  .container {
     max-width: 600px;
   }
 }
