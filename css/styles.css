@@ -12,17 +12,17 @@ header {
 
 .container {
   background-color: #fff;
-  padding: 40px; /* Increased padding */
+  padding: 40px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
   display: inline-block;
-  width: 690px; /* Reduced width */
-  height: 690px; /* Reduced height */
-  max-width: 690px; /* Reduced max-width */
+  width: 690px;
+  height: 690px;
+  max-width: 690px;
 }
 
 .container p {
-  margin-bottom: 20px; /* Added margin to paragraphs */
+  margin-bottom: 20px;
 }
 
 label {
@@ -67,6 +67,6 @@ button:hover {
 
 @media (min-width: 900px) {
   .container {
-    max-width: 700px; /* Set max-width to 700px */
+    max-width: 700px;
   }
 }
