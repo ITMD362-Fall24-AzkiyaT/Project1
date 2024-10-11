@@ -43,17 +43,20 @@ input[type="text"], input[type="email"] {
 
 button {
   background-color: #ff00ff;
-  color: white;
+  color: black;
   padding: 15px;
   border: none;
   cursor: pointer;
   width: 100%;
   border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 button:hover {
   background-color: #ad0075;
 }
+
 
 /* Media Queries */
 @media (min-width: 600px) {
