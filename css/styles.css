@@ -16,9 +16,9 @@ header {
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
   display: inline-block;
-  width: 700px; /* Set width to 700px */
-  height: 700px; /* Set height to 700px */
-  max-width: 700px; /* Set max-width to 700px */
+  width: 690px; /* Reduced width */
+  height: 690px; /* Reduced height */
+  max-width: 690px; /* Reduced max-width */
 }
 
 .container p {
