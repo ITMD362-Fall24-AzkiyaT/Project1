@@ -16,8 +16,9 @@ header {
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
   display: inline-block;
-  width: 80%; /* Increased width */
-  max-width: 600px; /* Maximum width */
+  width: 700px; /* Set width to 700px */
+  height: 700px; /* Set height to 700px */
+  max-width: 700px; /* Set max-width to 700px */
 }
 
 .container p {
@@ -63,6 +64,6 @@ button:hover {
 
 @media (min-width: 900px) {
   .container {
-    max-width: 800px; /* Increased max-width for larger screens */
+    max-width: 700px; /* Set max-width to 700px */
   }
 }
