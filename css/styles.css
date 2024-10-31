@@ -14,7 +14,7 @@ header {
 
 header img {
   width: 100%;
-  max-width: 600px;
+  max-width: 400px;
   height: auto;
   margin: 0 auto;
   display: block;
@@ -36,6 +36,11 @@ header img {
   margin-bottom: 20px;
 }
 
+input, label {
+    font-size: 16px;
+    font-weight: bold; /* Make the text bold */
+}
+
 label {
   display: block;
   margin-bottom: 5px;
@@ -51,11 +56,12 @@ input[type="text"], input[type="email"] {
   border-bottom: solid #2e8b57;
   background-color: #f8f8f8;
   font-size: 16px;
+  font-weight:bold;
 }
 
 button {
-  background-color: #ff69b4;
-  color: black;
+  background-color: #e74c3c;
+  color: white;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
