@@ -86,9 +86,7 @@ button:hover {
   .container {
     width: 90%;
     margin: 0 auto;
-  }
-  form {
-    width: 100%;
+	padding: 20px;
   }
   input, button {
     width: 90%;
