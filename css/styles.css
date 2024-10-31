@@ -67,7 +67,7 @@ input[type="text"], input[type="email"] {
 
 button {
   background-color: #e74c3c;
-  color: white;
+  color: black;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
