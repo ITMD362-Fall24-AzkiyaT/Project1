@@ -41,12 +41,11 @@ form {
 
 input, label {
   font-size: 16px;
-  font-weight: bold; /* Make the text bold */
 }
 
 label {
   display: block;
-  margin-bottom: 10px; /* Adjust margin for better spacing */
+  margin-bottom: 10px;
   color: #333;
 }
 
@@ -63,8 +62,8 @@ input[type="text"], input[type="email"] {
 }
 
 button {
-  background-color: #e74c3c;
-  color: white;
+  background-color: #ff69b4;
+  color: black;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
